@@ -1,4 +1,5 @@
 # ArmorStandEditor
+[![Build Status](https://jenkins.havensedgemc.com/job/Armor%20Stand%20Editor/badge/icon)](https://jenkins.havensedgemc.com/job/Armor%20Stand%20Editor/)
 Bukkit plugin to allow players to edit armorstands without commands.
 
 Read the [wiki](https://github.com/RypoFalem/ArmorStandEditor/wiki) for more info.
