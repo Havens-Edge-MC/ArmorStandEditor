@@ -42,7 +42,7 @@ import org.bukkit.potion.PotionEffectType;
 import org.bukkit.util.EulerAngle;
 
 public class PlayerEditor {
-	public ArmorStandEditorPlugin plugin;
+	public ArmorStandEditor plugin;
 	private UUID uuid;
 	EditMode eMode;
 	AdjustmentMode adjMode;
@@ -58,7 +58,7 @@ public class PlayerEditor {
 	EquipmentMenu equipMenu;
 	long lastCancelled = 0;
 
-	public PlayerEditor(UUID uuid, ArmorStandEditorPlugin plugin){
+	public PlayerEditor(UUID uuid, ArmorStandEditor plugin){
 		this.uuid =uuid;
 		this.plugin = plugin;
 		eMode = EditMode.NONE;
@@ -362,7 +362,7 @@ public class PlayerEditor {
 	void sendMessage(String path, String format, String option){
 		String message = plugin.getLang().getMessage(path, format, option);
 		if(plugin.sendToActionBar){
-			if(ArmorStandEditorPlugin.instance().hasSpigot){
+			if(ArmorStandEditor.instance().hasSpigot){
 				plugin.getServer().getPlayer(getUUID()).spigot().sendMessage(ChatMessageType.ACTION_BAR, new TextComponent(message));
 			} else{
 				String rawText = plugin.getLang().getRawMessage(path, format, option);

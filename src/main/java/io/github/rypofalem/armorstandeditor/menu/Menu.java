@@ -19,7 +19,7 @@
 
 package io.github.rypofalem.armorstandeditor.menu;
 
-import io.github.rypofalem.armorstandeditor.ArmorStandEditorPlugin;
+import io.github.rypofalem.armorstandeditor.ArmorStandEditor;
 import io.github.rypofalem.armorstandeditor.PlayerEditor;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
@@ -164,7 +164,7 @@ public class Menu {
 
 	private ItemStack createIcon(ItemStack icon, String path, String command, String option){
 		ItemMeta meta = icon.getItemMeta();
-		meta.getPersistentDataContainer().set(ArmorStandEditorPlugin.instance().getIconKey(), PersistentDataType.STRING, "ase " + command);
+		meta.getPersistentDataContainer().set(ArmorStandEditor.instance().getIconKey(), PersistentDataType.STRING, "ase " + command);
 		meta.setDisplayName(getIconName(path, option));
 		ArrayList<String> loreList = new ArrayList<>();
 		loreList.add(getIconDescription(path, option));

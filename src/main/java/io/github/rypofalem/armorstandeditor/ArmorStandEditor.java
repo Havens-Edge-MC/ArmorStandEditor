@@ -30,9 +30,9 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import java.io.File;
 
-public class ArmorStandEditorPlugin extends JavaPlugin{
+public final class ArmorStandEditor extends JavaPlugin{
 	private NamespacedKey iconKey;
-	private static ArmorStandEditorPlugin instance;
+	private static ArmorStandEditor instance;
 	private CommandEx execute;
 	private Language lang;
 	public boolean hasSpigot;
@@ -47,7 +47,7 @@ public class ArmorStandEditorPlugin extends JavaPlugin{
 	double coarseRot;
 	double fineRot;
 
-	public ArmorStandEditorPlugin(){
+	public ArmorStandEditor(){
 		instance = this;
 	}
 
@@ -126,7 +126,7 @@ public class ArmorStandEditorPlugin extends JavaPlugin{
 		return list.toString();
 	}
 
-	public static ArmorStandEditorPlugin instance(){
+	public static ArmorStandEditor instance(){
 		return instance;
 	}
 

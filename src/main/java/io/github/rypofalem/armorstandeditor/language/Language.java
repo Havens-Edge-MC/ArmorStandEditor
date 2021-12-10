@@ -19,7 +19,7 @@
 
 package io.github.rypofalem.armorstandeditor.language;
 
-import io.github.rypofalem.armorstandeditor.ArmorStandEditorPlugin;
+import io.github.rypofalem.armorstandeditor.ArmorStandEditor;
 import org.bukkit.ChatColor;
 import org.bukkit.configuration.file.YamlConfiguration;
 
@@ -32,9 +32,9 @@ public class Language {
     private YamlConfiguration langConfig = null;
     private YamlConfiguration defConfig = null;
     private File langFile = null;
-    ArmorStandEditorPlugin plugin;
+    ArmorStandEditor plugin;
 
-    public Language(String langFileName, ArmorStandEditorPlugin plugin) {
+    public Language(String langFileName, ArmorStandEditor plugin) {
         this.plugin = plugin;
         reloadLang(langFileName);
     }

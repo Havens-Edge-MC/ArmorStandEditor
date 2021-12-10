@@ -30,14 +30,14 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 public class CommandEx implements CommandExecutor{
-	ArmorStandEditorPlugin plugin;
+	ArmorStandEditor plugin;
 	final String LISTMODE = ChatColor.GREEN + "/ase mode <" + Util.getEnumList(EditMode.class) + ">";
 	final String LISTAXIS = ChatColor.GREEN + "/ase axis <" + Util.getEnumList(Axis.class) + ">";
 	final String LISTADJUSTMENT = ChatColor.GREEN + "/ase adj <" + Util.getEnumList(AdjustmentMode.class) + ">";
 	final String LISTSLOT =  ChatColor.GREEN + "/ase slot <1-9>";
 	final String HELP = ChatColor.GREEN + "/ase help";
 
-	public CommandEx(ArmorStandEditorPlugin armorStandEditorPlugin) {
+	public CommandEx(ArmorStandEditor armorStandEditorPlugin) {
 		this.plugin = armorStandEditorPlugin;
 	}
 

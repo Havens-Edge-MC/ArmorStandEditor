@@ -42,7 +42,7 @@ import java.util.UUID;
 
 //Manages PlayerEditors and Player Events related to editing armorstands
 public class PlayerEditorManager implements Listener{
-	private ArmorStandEditorPlugin plugin;
+	private ArmorStandEditor plugin;
 	private HashMap<UUID, PlayerEditor> players;
 	private ASEHolder menuHolder = new ASEHolder(); //Inventory holder that owns the main ase menu inventories for the plugin
 	private ASEHolder equipmentHolder = new ASEHolder(); //Inventory holder that owns the equipment menu
@@ -54,7 +54,7 @@ public class PlayerEditorManager implements Listener{
 	private TickCounter counter;
 
 
-	PlayerEditorManager(ArmorStandEditorPlugin plugin){
+	PlayerEditorManager(ArmorStandEditor plugin){
 		this.plugin = plugin;
 		players = new HashMap<>();
 		coarseAdj = Util.FULLCIRCLE / plugin.coarseRot;
