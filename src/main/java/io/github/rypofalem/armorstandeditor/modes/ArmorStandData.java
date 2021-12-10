@@ -17,7 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package io.github.rypofalem.ArmorStandEditor.modes;
+package io.github.rypofalem.armorstandeditor.modes;
 
 import org.bukkit.entity.ArmorStand;
 import org.bukkit.inventory.ItemStack;

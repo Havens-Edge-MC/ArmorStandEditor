@@ -17,12 +17,11 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package io.github.rypofalem.ArmorStandEditor.language;
+package io.github.rypofalem.armorstandeditor.language;
 
+import io.github.rypofalem.armorstandeditor.ArmorStandEditorPlugin;
 import org.bukkit.ChatColor;
 import org.bukkit.configuration.file.YamlConfiguration;
-
-import io.github.rypofalem.ArmorStandEditor.ArmorStandEditorPlugin;
 
 import java.io.*;
 import java.nio.charset.Charset;

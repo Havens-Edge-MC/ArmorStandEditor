@@ -17,17 +17,18 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package io.github.rypofalem.ArmorStandEditor.menu;
+package io.github.rypofalem.armorstandeditor.modes;
 
-import org.bukkit.inventory.Inventory;
-import org.bukkit.inventory.InventoryHolder;
-
-
-public class ASEHolder implements InventoryHolder {
-
-	@Override
-	public Inventory getInventory() {
-		return null;
+public enum Axis {
+	X("X"),Y("Y"),Z("Z");
+	
+	String name;
+	
+	Axis(String name){
+		this.name = name;
 	}
-
+	
+	public String toString(){
+		return name;
+	}
 }
