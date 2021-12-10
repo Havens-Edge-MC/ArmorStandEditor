@@ -7,3 +7,4 @@ Read the [wiki](https://github.com/RypoFalem/ArmorStandEditor/wiki) for more inf
 
 ### I do NOT own the creation of ArmorStandEditor. Its orginal creator and credit goes to [RypoFalem](https://github.com/RypoFalem) for making such a good plugin and you should go support them
 I am mainly only updating this plugin as best as i can because a friend uses it and I want to make sure it works as smoothly as possible.
+If you want the orginal spigot plugin check here: https://www.spigotmc.org/resources/armor-stand-editor-dead.7688/
