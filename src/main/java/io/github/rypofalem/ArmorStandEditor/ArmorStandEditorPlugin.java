@@ -17,9 +17,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package io.github.rypofalem.armorstandeditor;
+package io.github.rypofalem.ArmorStandEditor;
 
-import io.github.rypofalem.armorstandeditor.language.Language;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
@@ -27,6 +26,8 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
+
+import io.github.rypofalem.ArmorStandEditor.language.Language;
 
 import java.io.File;
 

@@ -17,15 +17,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package io.github.rypofalem.armorstandeditor;
-
-import io.github.rypofalem.armorstandeditor.menu.EquipmentMenu;
-import io.github.rypofalem.armorstandeditor.menu.Menu;
-import io.github.rypofalem.armorstandeditor.modes.AdjustmentMode;
-import io.github.rypofalem.armorstandeditor.modes.ArmorStandData;
-import io.github.rypofalem.armorstandeditor.modes.Axis;
-import io.github.rypofalem.armorstandeditor.modes.CopySlots;
-import io.github.rypofalem.armorstandeditor.modes.EditMode;
+package io.github.rypofalem.ArmorStandEditor;
 
 import java.util.ArrayList;
 import java.util.UUID;
@@ -40,6 +32,14 @@ import org.bukkit.entity.Player;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 import org.bukkit.util.EulerAngle;
+
+import io.github.rypofalem.ArmorStandEditor.menu.EquipmentMenu;
+import io.github.rypofalem.ArmorStandEditor.menu.Menu;
+import io.github.rypofalem.ArmorStandEditor.modes.AdjustmentMode;
+import io.github.rypofalem.ArmorStandEditor.modes.ArmorStandData;
+import io.github.rypofalem.ArmorStandEditor.modes.Axis;
+import io.github.rypofalem.ArmorStandEditor.modes.CopySlots;
+import io.github.rypofalem.ArmorStandEditor.modes.EditMode;
 
 public class PlayerEditor {
 	public ArmorStandEditorPlugin plugin;

@@ -17,17 +17,18 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package io.github.rypofalem.armorstandeditor;
+package io.github.rypofalem.ArmorStandEditor;
 
-import io.github.rypofalem.armorstandeditor.modes.AdjustmentMode;
-import io.github.rypofalem.armorstandeditor.modes.Axis;
-import io.github.rypofalem.armorstandeditor.modes.EditMode;
 import org.bukkit.ChatColor;
 import org.bukkit.Sound;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
+
+import io.github.rypofalem.ArmorStandEditor.modes.AdjustmentMode;
+import io.github.rypofalem.ArmorStandEditor.modes.Axis;
+import io.github.rypofalem.ArmorStandEditor.modes.EditMode;
 
 public class CommandEx implements CommandExecutor{
 	ArmorStandEditorPlugin plugin;
