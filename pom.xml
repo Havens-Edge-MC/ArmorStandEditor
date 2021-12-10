@@ -4,7 +4,7 @@
   <artifactId>ArmorStandEditor</artifactId>
   <packaging>jar</packaging>
   <version>1.17-1</version>
-  <name>ArmorStandEditor</name>
+  <name>ArmorStandEditorPlugin</name>
   <developers>
     <developer>
       <id>RypoFalem</id>

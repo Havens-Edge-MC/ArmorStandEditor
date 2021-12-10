@@ -1,5 +1,5 @@
-name: ${project.name}
-main: io.github.rypofalem.armorstandeditor.ArmorStandEditorPlugin
+name: ${project.artifactId}
+main: ${project.groupId}.${project.name}
 version: ${project.version}
 api-version: "1.13"
 website: https://github.com/RypoFalem
