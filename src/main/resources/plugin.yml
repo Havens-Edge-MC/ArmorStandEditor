@@ -1,9 +1,10 @@
-name: ArmorStandEditor
-main: io.github.rypofalem.armorstandeditor.ArmorStandEditorPlugin
-version: 1.16-24
+name: ${project.name}
+main: ${project.groupId}.${project.artifactId}
+version: ${project.version}
 api-version: "1.13"
-website: rypofalem.github.io
+website: https://github.com/RypoFalem
 author: RypoFalem
+developer: GyztorMizirath
 description: Allows players to edit data of armorstands without any commands.
 commands:
   ase:
