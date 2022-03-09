@@ -3,7 +3,7 @@
   <groupId>io.github.rypofalem.armorstandeditor</groupId>
   <artifactId>ArmorStandEditor</artifactId>
   <packaging>jar</packaging>
-  <version>1.17-1</version>
+  <version>1.18-1</version>
   <name>ArmorStandEditor</name>
   <developers>
     <developer>
@@ -17,7 +17,7 @@
       <email>gyztor@havensedgemc.com</email>
       <url>https://github.com/Gyztor</url>
       <properties>
-        <picUrl>https://www.havensedgemc.com/core/webp-express/webp-images/doc-root/wp-content/uploads/gyztor-pfp-pixel.jpeg.webp</picUrl>
+        <picUrl>https://www.havensedgemc.com/storage/gyztor-pfp-pixel.jpeg.webp</picUrl>
       </properties>
     </developer>
   </developers>
@@ -33,10 +33,28 @@
     </repository>
   </repositories>
   <dependencies>
-  <dependency>
+    <dependency>
       <groupId>org.spigotmc</groupId>
       <artifactId>spigot-api</artifactId>
-      <version>1.17.1-R0.1-SNAPSHOT</version>
+      <version>1.17.1_R1-SNAPSHOT</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.spigotmc</groupId>
+      <artifactId>spigot-api</artifactId>
+      <version>1.17.1_R1_2-SNAPSHOT</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.spigotmc</groupId>
+      <artifactId>spigot-api</artifactId>
+      <version>1.18_R1-SNAPSHOT</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.spigotmc</groupId>
+      <artifactId>spigot-api</artifactId>
+      <version>1.18_R2-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
   </dependencies>
@@ -46,12 +64,12 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>
-          <version>3.0.0-M5</version>
+          <version>3.0.0-M9</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.8.1</version>
+          <version>3.10.0</version>
         </plugin>
       </plugins>
     </pluginManagement>
