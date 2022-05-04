@@ -3,7 +3,7 @@
   <groupId>io.github.rypofalem.armorstandeditor</groupId>
   <artifactId>ArmorStandEditor</artifactId>
   <packaging>jar</packaging>
-  <version>1.18-2</version>
+  <version>1.18-3</version>
   <name>ArmorStandEditor</name>
   <developers>
     <developer>
@@ -17,8 +17,13 @@
       <email>gyztor@havensedgemc.com</email>
       <url>https://github.com/Gyztor</url>
       <properties>
-        <picUrl>https://www.havensedgemc.com/storage/gyztor-pfp-pixel.jpeg.webp</picUrl>
+        <picUrl>https://havensedgemc.com/storage/IMG_3967.png</picUrl>
       </properties>
+    </developer>
+    <developer>
+      <id>willies952002</id>
+      <email>admin@domnian.com</email>
+      <url>https://github.com/willies952002</url>
     </developer>
   </developers>
   <properties>
