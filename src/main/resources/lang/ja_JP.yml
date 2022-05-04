@@ -43,10 +43,12 @@ setadj:
   fine: 細かい
 setgravity:
   msg: 自由落下を <x> に変更しました。
-  on: ON
-  off: OFF
+  true: ON
+  false: OFF
 nomode:
   msg: 編集ツールをアーマスタンドから目を逸らした方向でクリックをして、最初の編集モードを選択してください！
+nomodeif:
+  msg: Click with the Edit Tool away from the ItemFrame to select a mode firs
 copied:
   msg: <x>スロットにアーマースタンドの状態をコピーしました。
 pasted:
@@ -55,6 +57,12 @@ target:
   msg: アーマースタンドの編集対象を保持しました。
 notarget:
   msg: アーマースタンドの編集対象を保持していません。
+frametarget:
+  msg: Itemframe target locked
+noframetarget:
+  msg: Itemframe target unlocked.
+doubletarget:
+  msg: Please look at either an ArmorStand or an ItemFrame, not both!
 help:
   msg: "1. 編集ツール(<x>)を手に持ちます。
 

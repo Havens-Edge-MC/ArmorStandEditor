@@ -39,10 +39,12 @@ setadj:
   fine: Делікатну
 setgravity:
   msg: Гравітація <x>.
-  'true': увімкнена
-  'false': вимкнена
+  true: увімкнена
+  false: вимкнена
 nomode:
   msg: Натисни інструментом редагування поза стендом щоб обрати режим!
+nomodeif:
+  msg: Click with the Edit Tool away from the ItemFrame to select a mode first!
 copied:
   msg: Стенд скопійовано в слот <x>.
 pasted:
@@ -153,10 +155,6 @@ rotate:
   msg: Обернути
   description:
     msg: Обертай стенд
-target:
-  msg: Ціль
-  description:
-    msg: СКОРО!
 copy:
   msg: Копія
   description:

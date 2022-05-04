@@ -42,10 +42,12 @@ setadj:
   fine: fin
 setgravity: 
   msg: Gravité <x>.
-  on: activée
-  off: désactivée
+  true: activée
+  false: désactivée
 nomode: 
   msg: Cliquez d'abord avec cet outil hors d'un valet pour sélectionner un mode d'édition.
+nomodeif:
+  msg: Click with the Edit Tool away from the ItemFrame to select a mode firs
 copied: 
   msg: État du valet copié dans l'emplacement <x>.
 pasted: 
@@ -54,6 +56,12 @@ target:
   msg: Valet cible verrouillé.
 notarget:
   msg: Valet cible déverrouillé.
+frametarget:
+  msg: Itemframe target locked
+noframetarget:
+  msg: Itemframe target unlocked.
+doubletarget:
+  msg: Please look at either an ArmorStand or an ItemFrame, not both!
 help:
   msg: "1. Tenez l'outil d'édition (<x>) dans votre main principale.
   

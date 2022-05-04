@@ -42,10 +42,12 @@ setadj:
   fine: Małe
 setgravity: 
   msg: Grawitacja została <x>.
-  on: włączona
-  off: wyłączona
+  true: włączona
+  false: wyłączona
 nomode: 
   msg: Kliknij narzędziem z dala od stojaka na zbroję, aby najpierw wybrać tryb edycji!
+nomodeif:
+  msg: Click with the Edit Tool away from the ItemFrame to select a mode first!
 copied: 
   msg: Skopiowano stoja do slotu <x>.
 pasted: 
@@ -54,6 +56,12 @@ target:
   msg: Zablokowano cel.
 notarget:
   msg: Odblokowano cel.
+frametarget:
+  msg: Itemframe target locked
+noframetarget:
+  msg: Itemframe target unlocked.
+doubletarget:
+  msg: Please look at either an ArmorStand or an ItemFrame, not both!
 help:
   msg: "1. Trzymaj narzędzie edycji (<x>).
 
