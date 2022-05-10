@@ -55,15 +55,11 @@ public abstract class Util {
 		if(angle > FULLCIRCLE){
 			return 0;
 		}
-		if(angle > 0 && angle < angleChange){
-			if(angle < angleChange/2){
-				return 0;
-			}
+		if ((angle > 0 && angle < angleChange) && (angle < angleChange/2)){
+			return 0;
 		}
-		if(angle > FULLCIRCLE-angle){
-			if(angle > FULLCIRCLE - (angleChange/2)){
-				return 0;
-			}
+		if ((angle > FULLCIRCLE-angle) && (angle > FULLCIRCLE - (angleChange/2))){
+			return 0;
 		}
 		return angle;
 	}

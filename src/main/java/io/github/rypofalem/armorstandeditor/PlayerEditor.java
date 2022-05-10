@@ -361,12 +361,12 @@ public class PlayerEditor {
 		armorStand.setArms(!armorStand.hasArms());
 	}
 	void toggleVisible(ArmorStand armorStand) {
-		if (!getPlayer().hasPermission("asedit.armorstand.invisible") || !plugin.armorStandVisibility) return; //Option to use perms or Config
+		if (!getPlayer().hasPermission("asedit.armorstand.invisible") || !plugin.armorStandVisibility) return;
 		armorStand.setVisible(!armorStand.isVisible());
 	}
 
 	void toggleItemFrameVisible(ItemFrame itemFrame) {
-		if (!getPlayer().hasPermission("asedit.itemframe.invisible") || !plugin.invisibleItemFrames) return; //Option to use perms or Config
+		if (!getPlayer().hasPermission("asedit.itemframe.invisible") || !plugin.invisibleItemFrames) return;
 		itemFrame.setVisible(!itemFrame.isVisible());
 	}
 
